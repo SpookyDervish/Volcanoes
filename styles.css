@@ -1,0 +1,138 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* ===== Colours ===== */
+:root{
+    --body-color: #E4E9F7;
+    --primary: #4070F4;
+    --primary-light: #839ee8;
+    --side-nav: #010718;
+    --text-color: #FFF;
+    --search-bar: #F2F2F2;
+    --search-text: #010718;
+    --hero-color: aliceblue;
+    --link-hover-color: #d19ee2;
+    --footer-color: #FFFFFF;
+}
+
+body {
+    margin-top: 70px;
+    background-color: var(--body-color);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100vw;
+    background: var(--primary);
+}
+
+nav .nav-bar {
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background: var(--primary);
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .logo a {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav-bar .logo a::before {
+    content: '';
+}
+
+.nav-bar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+.nav-links li a {
+    position: relative;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.nav-links li a:hover {
+    color: var(--link-hover-color);
+    transform: rotate(6deg);
+}
+
+.hero {
+    background: var(--hero-color);
+    display: flex;
+    justify-content: center;
+}
+
+.hero-inner {
+    padding: 45px 60px;
+    max-width: 760px;
+}
+
+.hero-inner h1 {
+    margin: 25px 0;
+}
+
+.hero-inner p {
+    margin-bottom: 30px;
+}
+
+.hero-inner img {
+    color: #aeaeae;
+    font-size: 1rem;
+    width: 50%;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.button {
+    background: var(--primary);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 8px;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: var(--primary-light);
+}
+
+.footer {
+    background: var(--footer-color);
+    color: #aeaeae;
+    text-align: center;
+    padding: 20px 0;
+}
