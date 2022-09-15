@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volcanoes | Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-bar">
+            <span class="logo"><a href="index.html">Volcanoes</a></span>
+
+            <div class="menu">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="credits.html">Credits</a></li>
+                    <li><a href="learn-more.html">Learn More</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero -->
+    <div class="hero">
+        <div class="hero-inner" style="max-width: 1200px;">
+            <h1>Volcano Quiz</h1>
+            <div id="quiz">
+                <div id="question"></div>
+                <div id="qImg"></div>
+                <br>
+                <div id="choices">
+                    <div class="choice button" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice button" id="B" onclick="checkAnswer('B')"></div>
+                    <div class="choice button" id="C" onclick="checkAnswer('C')"></div>
+                </div>
+            </div>
+            <div id="scoreContainer" style="display: none;"><img src="smile.png">50%</div>
+        </div>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>This website is for a school project, please do not use it for actual research.</p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/quiz.js" defer></script>
+    <!-- End JavaScript -->
+</body>
+
+</html>
