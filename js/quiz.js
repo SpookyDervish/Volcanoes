@@ -25,7 +25,6 @@ let questions = [
         choiceB: "The Earth's mantle",
         choiceC: "The Earth's core",
         correct: "B"
-
     }, {
         question: "What comes out of a volcano?",
         imgSrc: "images/diagram-3.png",
@@ -40,6 +39,13 @@ let questions = [
         choiceB: "The lava bursting ut of the volcano creates a shockwave and estroys buildings an flings peopleor objects away",
         choiceC: "The deafening sound of the volcano kills everything in a certain radius",
         correct: "A"
+    }, {
+        question: "What is the most powerful volcano in history?",
+        imgSrc: "images/diagram-4.png",
+        choiceA: "Krakatau",
+        choiceB: "Mont Pelée",
+        choiceC: "Wyoming",
+        correct: "C"
     }
 ];
 
